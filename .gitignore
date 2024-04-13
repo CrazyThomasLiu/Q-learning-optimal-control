@@ -12,7 +12,45 @@ comparison_algorithm/PI_Robust_output.csv
 comparison_algorithm/PI_Robust_RMSE.csv
 comparison_algorithm/robust_pi_controller.py
 comparison_algorithm/robust_pi_controller_paper.py
-comparison_algorithm/demo_pi_robust_v2.py
+comparison_algorithm/robust_pi_controller_v2.py
+# Ignore the specified file
+Data/Buffer_u_5.csv
+Data/Buffer_u_10.csv
+Data/Buffer_u_5.csv
+Data/Buffer_u_10.csv
+Data/Buffer_y_5.csv
+Data/Buffer_y_10.csv
+Data/Buffer_y_5.csv
+Data/Buffer_y_10.csv
+Data/control_law_off_policy_10.csv
+Data/initial_control_control_signal.csv
+Data/initial_control_law.csv
+Data/initial_control_output_response.csv
+Data/optimal_control_control_signal.csv
+Data/optimal_control_law.csv
+Data/optimal_control_output_response.csv
+# Ignore the specified file
+Compare_K_10_paper.pdf
+Compare_RMSE_paper.pdf
+demo_compare_K_paper.py
+demo_compare_RMSE_paper.py
+demo_mbocs.py
+demo_mbocs_optimal_paper.py
+demo_mbocs_paper.py
+demo_mbocs_paper2.py
+demo_sample.py
+demo_sample_3D_paper.py
+demo_sample_paper.py
+demo_test.py
+demo_test_batch_paper.py
+demo_test_v2.py
+demo_test_v2_paper.py
+demo_train.py
+demo_train_paper.py
+Q_learing.jpg
+Q_learing.pdf
+Q_learning_RMSE.csv
+sample_data_3D.pdf
 
 # Ignore the specified folder
 Data/policy_iteration_10
