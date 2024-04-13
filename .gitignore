@@ -16,12 +16,12 @@ comparison_algorithm/robust_pi_controller_v2.py
 # Ignore the specified file
 Data/Buffer_u_5.csv
 Data/Buffer_u_10.csv
-Data/Buffer_u_5.csv
-Data/Buffer_u_10.csv
+Data/Buffer_x_5.csv
+Data/Buffer_x_10.csv
 Data/Buffer_y_5.csv
 Data/Buffer_y_10.csv
-Data/Buffer_y_5.csv
-Data/Buffer_y_10.csv
+Data/Buffer_y_ref_5.csv
+Data/Buffer_y_ref_10.csv
 Data/control_law_off_policy_10.csv
 Data/initial_control_control_signal.csv
 Data/initial_control_law.csv
