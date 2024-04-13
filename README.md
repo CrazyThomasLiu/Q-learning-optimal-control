@@ -40,7 +40,7 @@ Run the following command to show the sample data figure.
 ```
 python demo_sample_3D_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
+![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/sample_data_3D_final.jpg)
 
 Run the following command to illustrate the convergence of Q-learning.
 ```
