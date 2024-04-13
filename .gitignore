@@ -1,2 +1,18 @@
+# Ignore the specified file
+comparison_algorithm/demo_pi_robust.py
+comparison_algorithm/demo_pi_robust_paper.py
+comparison_algorithm/demo_pi_robust_random_paper.py
+comparison_algorithm/demo_pi_robust_v2.py
+comparison_algorithm/mb_ocs.jpg
+comparison_algorithm/pi_controller.py
+comparison_algorithm/pi_controller_paper.py
+comparison_algorithm/pi_controller_v2.py
+comparison_algorithm/PI_Robust_control_signal.csv
+comparison_algorithm/PI_Robust_output.csv
+comparison_algorithm/PI_Robust_RMSE.csv
+comparison_algorithm/robust_pi_controller.py
+comparison_algorithm/robust_pi_controller_paper.py
+comparison_algorithm/demo_pi_robust_v2.py
+
 # Ignore the specified folder
 Data/policy_iteration_10
