@@ -49,6 +49,7 @@ ax.legend(['$y_{k,t}^{r}$','$y_{k,t}$'],fontsize=13)
 plt.tick_params(labelsize=12)
 ax.view_init(40, -19)
 if save_figure==True:
+    plt.savefig('sample_data_3D_final.jpg',dpi=800)
     plt.savefig('sample_data_3D_final.pdf')
 plt.show()
 
