@@ -200,7 +200,7 @@ plt.ylabel(ylable,font)
 ax1.grid()
 ax1.legend(['Model-based Initial Controller','Q-learning-based Optimal Controller'],fontsize=11)
 if save_figure==True:
-
+    plt.savefig('Q_learning_final.jpg', dpi=800)
     plt.savefig('Q_learning_final.pdf')
 
 plt.show()

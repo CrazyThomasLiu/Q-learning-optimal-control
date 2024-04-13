@@ -186,5 +186,6 @@ plt.ylabel(ylable,font2 )
 plt.tick_params(labelsize=12)
 ax0.legend(['Q-learning-based Optimal Controller','PI-based Indirect ILC [JPC,2019]'],fontsize=11)
 if save_figure==True:
+    plt.savefig('Compare_RMSE_final.jpg',dpi=800)
     plt.savefig('Compare_RMSE_final.pdf')
 plt.show()
