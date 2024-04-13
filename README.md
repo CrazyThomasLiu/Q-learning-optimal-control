@@ -13,45 +13,54 @@
 * Create a python virtual environment and activate. `conda create -n qoc python=3.10` and `conda activate qoc`
 * Install dependenices. `cd qoc`, `pip install -r requirement.txt` 
 
-## Calculation of the 2D ICL controller
-Run the following command to obtain the control law of the 2D ILC Controller.
+## Calculation of the model-based initial controller and optimal controller
+Run the following command to obtain the initial control policy and optimal control policy based on the model.
 ```
-cd ILC_Controller
-python controllaw_injection_molding_process.py or controllaw_nonlinear_batch_reactor.py 
+python demo_mbocs_final.py
 ```
-
-## Training of the 2D DRL compensator
-Run the following command to train the 2D DRL Compensator.
+## Getting the Q-learning-based optimal control scheme
+Run the following command to sample the data and iteratively compute the Q-learning-based optimal control policy.
 ```
-cd DRL_Compensator
-python demo_nominal_injection_molding_process.py or demo_nominal_nonlinear_batch_reactor.py 
-python demo_practical_injection_molding_process.py or demo_nominal_nonlinear_batch_reactor.py 
+python demo_Q_learning_final.py
 ```
-The training usually takes 4 hours for the injection_molding_process and 6 hours for the nonlinear batch reactor.
-
-
-## Test for the control performance simulation 
-Run the following command to test the final control performance.
-* Injection Molding Process
-
+## Getting RMSEs for the comparison method.
+Run the following command to compute the PI-based indirect-type iterative learning control law.
 ```
-cd Trained_2D_ILC_RL_Controller/Injection_Molding_Process
-python demo_injection_molding_process.py
+cd comparison_algorithm
+python pi_controller_final.py
+python robust_pi_controller_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/2dilc-rl/raw/master/Trained_2D_ILC_RL_Controller/Injection_Molding_Process/Injection_molding_output.jpg)
-
-
-* Nonlinear Batch Reactor
-
+Run the following command to get the RMSEs data.
 ```
-cd Trained_2D_ILC_RL_Controller/Nonlinear_Batch_Reactor
-python demo_nonlinear_batch_reactor.py
+python demo_pi_robust_final.py
 ```
 
-![image](https://github.com/CrazyThomasLiu/2dilc-rl/raw/master/Trained_2D_ILC_RL_Controller/Nonlinear_Batch_Reactor/Nonlinear_batch_reactor_output.jpg)
+## Test for the control performance
+Run the following command to show the sample data figure.
+```
+python demo_sample_3D_final.py
+```
+![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
+
+Run the following command to illustrate the convergence of Q-learning.
+```
+python demo_compare_pi_final.py
+```
+![image](https://https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
+
+
+
+Run the following command to compare the control performance between the initial control policy and the Q-learning-based optimal control policy.
+```
+python demo_test_final.py
+```
+![image](https://https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
 
 
 
 
-
-
+Run the following command to compare the RMSEs.
+```
+python demo_compare_RMSE_final.py
+```
+![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
