@@ -46,7 +46,7 @@ Run the following command to illustrate the convergence of Q-learning.
 ```
 python demo_compare_pi_final.py
 ```
-![image](https://https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
+![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
 
 
 
@@ -54,7 +54,7 @@ Run the following command to compare the control performance between the initial
 ```
 python demo_test_final.py
 ```
-![image](https://https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
+![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
 
 
 
@@ -63,4 +63,4 @@ Run the following command to compare the RMSEs.
 ```
 python demo_compare_RMSE_final.py
 ```
-![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Q_learing.jpg)
+![image](https://github.com/CrazyThomasLiu/Q-learning_optimal_control/blob/master/Compare_RMSE_final.pdf)
